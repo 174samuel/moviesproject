@@ -1,0 +1,45 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+.background{
+    background:white;
+}
+
+.header{
+    display: flex;
+    height: 55px;
+    width: 100vw;
+    background: #5a5ec5;
+    justify-content: space-around;
+
+}
+.leftHeader{
+    display: flex;
+    gap: 40px;
+}
+.buttonsHeader{
+    background: #5a5ec5;
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Arial","sans-serif";
+}
+.rightHeader{
+    display: flex;
+    margin-left: 40px;
+    gap: 40px;
+    margin-right: 200px;
+    align-items: center;
+}
+.en{
+    height: 25px;
+    color: white;
+    background: #5a5ec5;
+    border: 2px solid white;
+    font-size: .7em;
+    padding: 3px;
+}

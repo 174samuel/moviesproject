@@ -1,0 +1,176 @@
+.movieDetails{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    position: absolute;
+}
+.imageBackground{
+    width: 100%;
+    height: 650px;
+    filter: brightness(0.6) blur(1px);
+}
+.imageBackground2{
+    width: 100%;
+    height: 550px;
+    background: black;
+    filter: brightness(0.6) blur(1px);
+}
+.imageAndWatchNow{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 500px;
+    width:300px;
+    left: 70px;
+}
+.movieImage{
+width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.watchNow{
+    height: 60px;
+    background: #5a5ec5;
+    padding: 20px;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 250px;
+    margin-top: 80px;
+    width: 800px;
+    gap: 25px;
+}
+.rowItems{
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+}
+.titleText{
+    font-weight: 800;
+    color: white;
+    font-size: 30px;
+}
+.icons{
+    font-size: 30px;
+    color: #5a5ec5;
+    background: #0f1c42;
+    padding: 7px;
+    border-radius: 50%;
+}
+.rating1,
+.rating2,
+.rating3{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+}
+.rating1{
+    background: #0f1c42;
+    color: #2f8547;
+    border: 5px solid #3ce76c;
+}
+.rating2{
+    background: #1a1a3b;
+    color: #9a9a09;
+    border: 5px solid #c7c705;
+}
+.rating3{
+    background: #0f1c42;
+    color: rgba(183, 76, 246, 0.58);
+    border: 5px solid rgb(170, 6, 217);
+}
+.userRating{
+    width:40px;
+    font-size: 20px;
+    color: white;
+}
+.ratingAndText{
+    display: flex;
+    gap: 5px;
+
+}
+
+.watchTrailerNow{
+    color: #bec55a;
+    background: #0f1c42;
+    border: none;
+    padding: 9px;
+    border-radius: 30px;
+}
+.arrow{
+    margin-top: 10px;
+    color: #bec55a;
+    font-size: 10px;
+
+}
+.overview{
+    color: white;
+}
+.loader {
+    border: 8px solid #f3f3f3; /* Light gray border */
+    border-top: 8px solid #3498db; /* Blue border (adjust the color as needed) */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; /* Apply rotation animation */
+    margin-left: 700px;
+    margin-top: 300px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.trailerVideo{
+    position: absolute;
+    height: 350px;
+    margin: auto;
+    width: 600px;
+    z-index: 2;
+    top: 200px;
+    left: 450px;
+}
+.blurBackground{
+    width: 100%;
+    height: 650px;
+    filter: blur(100px); /* Adjust the blur amount as needed */
+    z-index:1;
+    position: absolute;
+}
+.trailerContainer{
+display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+.cancelButton{
+    width: 30px;
+    height: 30px;
+    margin-left: 1100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    z-index: 2;
+    background: black;
+    color: #e7dbdb;
+    font-size: 15px;
+    border: none;
+}

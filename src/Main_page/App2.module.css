@@ -1,0 +1,95 @@
+.trendingcChoiceContainer{
+    display: flex;
+    width: 600px;
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.trendingWord{
+    font-weight: 700;
+    color: black;
+    font-size: 2em;
+}
+.trendingButtons{
+    display: flex;
+    position: relative;
+    margin-top: 5px;
+}
+
+.trendingButton{
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    border-radius: 50px;
+    border: 1px solid #180e57;
+    background: white;
+    font-size: 1.2em;
+    color: #0f1c42;
+}
+.trendingButtonOne{
+    border-bottom-right-radius: unset ;
+    border-top-right-radius: unset ;
+    border-right: none;
+
+}
+.trendingButtonTwo{
+    border-right: none;
+    border-bottom-right-radius: unset ;
+    border-top-right-radius: unset ;
+    border-left: none;
+    border-bottom-left-radius: unset ;
+    border-top-left-radius: unset ;
+    margin-left:85px ;
+}
+
+.trendingButtonThree{
+    border-left: none;
+    border-bottom-left-radius: unset ;
+    border-top-left-radius: unset ;
+    margin-left:170px ;
+
+}
+
+
+.trendingButtonClicked{
+    border: 3px solid #9b9eec;
+    background: #13416e;
+    color: #9b9eec;
+    z-index: 1;
+}
+
+.trendingButtonTwoClicked{
+    margin-left:85px ;
+}
+.trendingButtonThreeClicked{
+    margin-left:170px ;
+}
+
+
+.sectionButton {
+    width: 100px;
+    height: 33px;
+    border-radius: 50px;
+    border: 1px solid #180e57;
+    background: white;
+    font-size: 1.2em;
+    color: #0f1c42;
+    z-index: 1;
+    margin-left: 12px;
+}
+
+.sectionButtonClicked {
+    background: #13416e;
+    color: #9b9eec;
+    border: 3px solid #9b9eec;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: row;
+
+}
+.background{
+    background: #ffffff;
+}
+

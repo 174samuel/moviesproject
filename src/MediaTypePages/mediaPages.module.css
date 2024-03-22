@@ -1,0 +1,92 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top:120px;
+}
+
+.leftSide{
+    display: flex;
+   flex-direction: column;
+    gap: 10px;
+
+}
+.clickedContainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 150px;
+    width:250px;
+    background: #13416e;
+    padding: 5px;
+    overflow: auto;
+}
+
+.movieManipulationContainer{
+    display: flex;
+    width:250px;
+    height:50px;
+    justify-content: space-between;
+    background: #13416e;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid #f6f5f2;
+}
+.text{
+    font-size: 20px;
+    font-weight: 900;
+    color: #7f83e1;
+
+}
+.buttonText{
+    font-size: 17px;
+    border-radius: 8px;
+    background: #13416e;
+    border: none;
+    color: white;
+}
+.clickedButton{
+    font-size: 17px;
+    border-radius: 8px;
+    background:#8f92f8 ;
+    color: #2c32a4;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 150px); /* Two columns of equal width */
+    grid-template-rows: repeat(5, 400px); /* Three rows each 100 pixels tall */
+    gap: 20px; /* Adjust the gap between grid items */
+}
+.grid-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+.arrow{
+    color: #8f92f8;}
+
+.wantedType{
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+.loader {
+    border: 8px solid #f3f3f3; /* Light gray border */
+    border-top: 8px solid #3498db; /* Blue border (adjust the color as needed) */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; /* Apply rotation animation */
+    margin: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
